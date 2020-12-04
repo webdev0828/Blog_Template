@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use GuzzleHttp\Client;
 use App\Models\Posts;
+use App\Models\User;
 
 class FetchBlogs extends Command
 {
