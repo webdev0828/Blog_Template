@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Str;
 use GuzzleHttp\Client;
 use App\Models\Posts;
 use App\Models\User;
