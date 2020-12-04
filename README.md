@@ -1,8 +1,12 @@
 // create database : blog
+// You can change .env.example to .env and use it.
 
-php artisan migrate
-php artisan db:seed --class=UserTableSeeder
+1) php artisan migrate
+2) php artisan db:seed --class=UserTableSeeder
 
-php artisan config:cache
-php artisan route:cache
-composer install --optimize-autoloader --no-dev
+3) php artisan config:cache
+4) php artisan route:cache
+5) composer install --optimize-autoloader --no-dev
+
+6) php artisan serve
+7) php artisan schedule:run
